@@ -38,6 +38,10 @@ public class OfficeWorker implements Worker {
 
     }
 
+    public void showString(String msg) {
+        System.out.println(msg);
+    }
+
     @Override
     public String introduceYourSelf() {
 

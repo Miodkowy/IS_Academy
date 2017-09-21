@@ -10,9 +10,11 @@ public class Main {
         officeWorker1.setSurname("Dąbrowski");
         officeWorker1.setAge(13);
 
-
         OfficeWorker officeWorker2 = new OfficeWorker("Adam", "Kowalski", 18);
         OfficeWorker officeWorker3 = new OfficeWorker("Anna", "Wisniewska", 18);
+        Boss boss = new Boss("Rałał", "Cebula", 40);
+        boss.showString(" to moja wiadomoc" + officeWorker2.getName());
+        officeWorker2.showString("jestem zwykłym pracownikiem "+ officeWorker2.getName());
 
 
         Logger l = Logger.getLogger("");
@@ -30,7 +32,7 @@ public class Main {
 
         workerArray[0] = officeWorker1;
         workerArray[1] = officeWorker3;
-        workerArray[2] = officeWorker2;
+        workerArray[2] = boss;
         try {
             workerArray[3] = officeWorker2;
         } catch (Exception e) {
@@ -41,7 +43,7 @@ public class Main {
 
         for (int i = 0; i < workerArray.length; i++) {
 
-            System.out.println("arr: " + workerArray[i].getName());
+            System.out.println("arr: " + workerArray[i].introduceYourSelf());
 
         }
 
