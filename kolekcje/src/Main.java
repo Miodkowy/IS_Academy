@@ -1,14 +1,51 @@
 import java.util.*;
+import java.util.logging.Logger;
 
 public class Main {
 
     public static void main(String[] arg) {
         OfficeWorker officeWorker1 = new OfficeWorker();
+
         officeWorker1.setName("Michał");
         officeWorker1.setSurname("Dąbrowski");
+        officeWorker1.setAge(13);
+
 
         OfficeWorker officeWorker2 = new OfficeWorker("Adam", "Kowalski", 18);
         OfficeWorker officeWorker3 = new OfficeWorker("Anna", "Wisniewska", 18);
+
+
+        Logger l = Logger.getLogger("");
+
+       /*--------------------------------------ARRAY------------------------------
+       Róznica miedzy ARRAY A LIst jest taka ze w LISCIE mozemy zwiekszac ilość elemntów
+       a w Array nie mozemy dodac wiecej elementow niż zadeklarowaliśmy na poczatku
+
+       Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
+        */
+
+        System.out.println("----------------------ARRAY-------------------------------");
+
+        OfficeWorker workerArray[] = new OfficeWorker[3];
+
+        workerArray[0] = officeWorker1;
+        workerArray[1] = officeWorker3;
+        workerArray[2] = officeWorker2;
+        try {
+            workerArray[3] = officeWorker2;
+        } catch (Exception e) {
+
+            System.out.println(e + ":  Nie mozesz zrobić tablicy o wiekszej ilości elementów niż zadeklarowałes ");
+        }
+
+
+        for (int i = 0; i < workerArray.length; i++) {
+
+            System.out.println("arr: " + workerArray[i].getName());
+
+        }
+
+
 
         /*------------------------------------------LISTA------------------------
         Kolekcja w której
@@ -16,13 +53,22 @@ public class Main {
                     -elementy mogą sie powtarzać
          */
         System.out.println("-----------------------LISTA-------------------------------");
-        List<OfficeWorker> lista_pracownikow = new ArrayList<OfficeWorker>();
-        lista_pracownikow.add(officeWorker1);
-        lista_pracownikow.add(officeWorker2);
-        lista_pracownikow.add(officeWorker3);
+        List<OfficeWorker> workerLIST = new ArrayList<OfficeWorker>();
+        workerLIST.add(officeWorker1);
+        workerLIST.add(officeWorker2);
+        workerLIST.add(officeWorker3);
 
         // lista_pracownikow.remove(pracownik2);
-        System.out.println("pracownik: " + lista_pracownikow.get(2).introduceYourSelf());
+
+        int count = 0;
+
+
+        do {
+            ++count;
+
+            System.out.println("pracownik: " + workerLIST.get(2).introduceYourSelf());
+        } while (count <= 4);
+
       /*  for (OfficeWorker pracownik : lista_pracownikow) {
             System.out.println("pracownik: " + pracownik.przedstawiaSiebie());
         }*/
@@ -36,13 +82,13 @@ public class Main {
        */
         System.out.println("------------------------SET------------------------------");
 
-        Set<OfficeWorker> set_pracowników = new HashSet<OfficeWorker>();
-        set_pracowników.add(officeWorker1);
-        set_pracowników.add(officeWorker2);
-        set_pracowników.add(officeWorker3);
-        set_pracowników.add(officeWorker3); //nie wyświetli drugi raz
+        Set<OfficeWorker> workerSET = new HashSet<OfficeWorker>();
+        workerSET.add(officeWorker1);
+        workerSET.add(officeWorker2);
+        workerSET.add(officeWorker3);
+        workerSET.add(officeWorker3); //nie wyświetli drugi raz
 
-        for (OfficeWorker pracownik : set_pracowników) {
+        for (OfficeWorker pracownik : workerSET) {
             System.out.println("pracownik: " + pracownik.introduceYourSelf());
         }
 
@@ -55,10 +101,10 @@ public class Main {
        */
         System.out.println("------------------------QUEUE------------------------------");
 
-        Queue<OfficeWorker> kolejka = new ArrayDeque<>();
-        kolejka.add(officeWorker1);
-        kolejka.add(officeWorker2);
-        System.out.println(kolejka.remove().introduceYourSelf()); //wypisze pierwszy
+        Queue<OfficeWorker> workerQUEUE = new ArrayDeque<>();
+        workerQUEUE.add(officeWorker1);
+        workerQUEUE.add(officeWorker2);
+        System.out.println(workerQUEUE.remove().introduceYourSelf()); //wypisze pierwszy
 
 
 

@@ -40,6 +40,7 @@ public class OfficeWorker implements Worker {
 
     @Override
     public String introduceYourSelf() {
+
         return "Mam na imię " + getName() + " " + getSurname();
     }
 }
