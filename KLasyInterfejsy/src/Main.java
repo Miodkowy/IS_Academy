@@ -30,7 +30,7 @@ public class Main {
         Cat.NestedClass wiekszyKot = new Cat.NestedClass(" fvvv");
         //wiekszyKot.nrestedRun();
 
-        //System.out.println(wiekszyKot.nestedRun());
+        System.out.println(wiekszyKot.nestedRun());
         /*System.out.println(" Mam na imię "+ smallTiger.getName());
         System.out.println(" głos tygrysa "+ smallTiger.giveAsound());
         System.out.println(" głos kota "+ smallCat.giveAsound());
