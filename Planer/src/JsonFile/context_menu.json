@@ -1,0 +1,33 @@
+{
+  "Planer": {
+    "pokaż wydarzenia": {
+      "metoda": "showEvents"
+    },
+    "pokaż rozkład jazdy": {
+      "metoda": "busSchedule"
+    }
+  },
+  "Zespoł Zielonych": {
+    "Sklad": {
+      "kursant 1": {
+        "opis": "",
+        "hobby": ""
+      },
+      "kursant 2": {
+        "opis": "",
+        "hobby": ""
+      },
+      "kursant 3": {
+        "opis": "",
+        "hobby": ""
+      },
+      "kursant 4": {
+        "opis": "",
+        "hobby": ""
+      }
+    },
+    "Motto": {
+      "tresc": "Nie mamy zielonego pojecia."
+    }
+  }
+}

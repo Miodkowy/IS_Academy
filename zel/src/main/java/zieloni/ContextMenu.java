@@ -1,11 +1,14 @@
+package zieloni;
+
+import org.json.simple.JSONObject;
+
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class ContextMenu {
 
 
-    private static String[][] question = {
-            {"Wybierz :\n1) Planer \n2) Transport \n3) Exit",}
-    };
+
 
 
     private static String getAnswer(String question, int state) {
@@ -32,10 +35,14 @@ public class ContextMenu {
         return "0";
     }
 
-    public static void showMenu() {
+    public static void showMenu(JSONObject json) {
         int state = 0;
 
-        getAnswer(question[0][0], 0);
+        Iterator<JSONObject> iterator = json.keySet().iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+
         getAnswer("Wybierz :\n1) Planer \n2) Transport \n3) Exit", 0);
 
     }
