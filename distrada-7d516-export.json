@@ -1,0 +1,722 @@
+{
+  "additions" : {
+    "rozne" : {
+      "desc" : "Krewetki, łosoś wędzony, anchois, suszone pomidory, szynka typu parmeńskiego, grillowany kurczak, tuńczyk, ser pleśniowy, ser Camembert, ser, kiełbasa krakowska, ser wędzony, biała mozzarella, szynka, salami, boczek, karczochy, kapary, feta",
+      "name" : "RÓŻNE",
+      "price" : 4,
+      "rank" : 1
+    },
+    "sosy" : {
+      "desc" : "sos jogurtowo - czosnkowy, sos z pomidorów pelatti",
+      "name" : "SOSY",
+      "price" : 2,
+      "rank" : 3
+    },
+    "weg" : {
+      "desc" : "szpinak, rukola, pieczarki, pomidor, por, ananas, brokuł, kukurydza, cebula, papryka konserwowa, jajko, czosnek, ostra papryka papperoni, oliwki",
+      "name" : "WEGETARIAŃSKIE",
+      "price" : 3,
+      "rank" : 2
+    }
+  },
+  "alfornos" : {
+    "-Kax4qH4NFrbJ2YWdTvt" : {
+      "desc" : "makaron muszle nadziewane serem ricotta i szpinakiem zapiekane pod beszamelem w piecu opalanym drewnem",
+      "name" : "CONCHIGLIONI \"DI STRADA\"",
+      "price" : 27,
+      "rank" : 1
+    },
+    "-Kbno6iqNyfBWgD0ob1E" : {
+      "desc" : "tradycyjna lazania z mięsem wołowym zapiekana pod beszamelem w piecu opalanym drewnem",
+      "name" : "LASAGNE AL FORNO",
+      "price" : 28,
+      "rank" : 2
+    },
+    "-KbnoHWIjme14UPoRI6F" : {
+      "desc" : "makaron penne z boczkiem, porem i brokułami w sosie śmietanowym zapiekany pod beszamelem w piecu opalanym drewnem",
+      "name" : "PASTA AL FORNO",
+      "price" : 28,
+      "rank" : 3
+    },
+    "-KbnoRis-ZJXJ1O31gNt" : {
+      "desc" : "lazania ze szpinakiem, boczkiem i pieczarkami zapiekana pod beszamelem w piecu opalanym drewnem",
+      "name" : "LASAGNE CON SPINACI",
+      "price" : 29,
+      "rank" : 4
+    }
+  },
+  "blogs" : {
+    "-Kf5lV4dE4-2AsNBnqGw" : {
+      "date" : "13.03.2017",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/distrada-7d516.appspot.com/o/images%2F2017-03-13%2008:25:47%20%2B0000?alt=media&token=9fae1e7a-6df8-45ab-8bea-968f13cabae9",
+      "news" : "A oto nowy szyld 😀",
+      "rank" : "2017-03-13 08:25:52 +0000",
+      "title" : "REKLAMA"
+    },
+    "-Kf6IvcI1kt15UTsPYN0" : {
+      "date" : "13.03.2017",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/distrada-7d516.appspot.com/o/images%2F2017-03-13%2010:56:10%20%2B0000?alt=media&token=3d987e0d-0025-43d6-a382-04cbf22a8213",
+      "news" : "Nowe zdjęcia! Zapraszamy!",
+      "rank" : "2017-03-13 10:56:17 +0000",
+      "title" : "CAMINO"
+    },
+    "-KlbUG5pKH3n9k3wNDVL" : {
+      "date" : "02.06.2017",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/distrada-7d516.appspot.com/o/images%2Fimage%3A33949?alt=media&token=94a519fb-f35c-4c67-8aa1-79d69ac1c9b2",
+      "news" : "Polecamy Szparagi",
+      "rank" : "2017-06-02 08:27:47",
+      "title" : "Sezon na szparagi"
+    },
+    "-KlbXtm1sOn8tpa1W4Cx" : {
+      "date" : "02.06.2017",
+      "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/distrada-7d516.appspot.com/o/images%2Fimage%3A3503?alt=media&token=6eb5315d-35e7-4011-b332-690bfe53bfe5",
+      "news" : "😀😀😀😀😀",
+      "rank" : "2017-06-02 08:43:41",
+      "title" : "serdecznie zapraszamy! w każdy weekend nowe atrakcje kulinarne!!!"
+    }
+  },
+  "drinks" : {
+    "-Kc8cxqYXq9dBtHiDaHa" : {
+      "desc" : "na gorąco z lodami",
+      "name" : "CIASTO CZEKOLADOWE",
+      "price" : 15,
+      "rank" : 1
+    },
+    "-KcI8cajaEO3A73CR5_8" : {
+      "desc" : "na gorąco z lodami",
+      "name" : "SZARLOTKA",
+      "price" : 15,
+      "rank" : 2
+    },
+    "-KcI8iLpOH3lWwdnb-SC" : {
+      "desc" : "3 gałki lodów z owocami",
+      "name" : "DESER LODOWY",
+      "price" : 13,
+      "rank" : 3
+    },
+    "-KcI8okZGwVOO1kWknbc" : {
+      "desc" : "filiżanka",
+      "name" : "KAWA, ESPRESSO, LATE, CAPPUCINO",
+      "price" : 8,
+      "rank" : 4
+    },
+    "-KcI8zvUPlXXa7orPGCl" : {
+      "desc" : "filiżanka",
+      "name" : "HERBATA",
+      "price" : 7,
+      "rank" : 5
+    },
+    "-KcI92z7RiX4PFfPkV3K" : {
+      "desc" : "0,25 l (but.)",
+      "name" : "COCA COLA, COCA COLA ZERO, FANTA, SPRITE, TONIC ",
+      "price" : 6,
+      "rank" : 6
+    },
+    "-KcI9X1MhRFv2aDoREjP" : {
+      "desc" : "cytrynowa, brzoskwiniowa - 0,25l (but.)",
+      "name" : "NESTEA",
+      "price" : 6,
+      "rank" : 7
+    },
+    "-KcI9xfbiWts1Q5iFcBD" : {
+      "desc" : "0,33 l (but.)",
+      "name" : "WODA GAZOWANA 'OSTROMECKO'",
+      "price" : 6,
+      "rank" : 8
+    },
+    "-KcIACxGVaOFo37yxO2S" : {
+      "desc" : "0,33 l (but.)",
+      "name" : "WODA NIEGAZOWANA 'OSTROMECKO'",
+      "price" : 6,
+      "rank" : 9
+    },
+    "-KcIANjlcqNJpyMxNykA" : {
+      "desc" : "0,3 l",
+      "name" : "SOKI 'TYMBARK'",
+      "price" : 6,
+      "rank" : 10
+    },
+    "-KcIAVZ1oKVFHbnIjvHi" : {
+      "desc" : "0,33 l (but.)",
+      "name" : "KUBUŚ",
+      "price" : 6,
+      "rank" : 11
+    },
+    "-KcIAf-h0tQBQFVVVj4h" : {
+      "desc" : "0,33 l (but.)",
+      "name" : "PIWO MORETTI",
+      "price" : 9,
+      "rank" : 12
+    },
+    "-KcIAtd6k8RbMTT2YMKj" : {
+      "desc" : "lampka 150 ml",
+      "name" : "RUBINO ZONIN, BIANCO ZONIN",
+      "price" : 10,
+      "rank" : 15
+    },
+    "-KcIB6uIswkqb1E2uavW" : {
+      "desc" : "Karafka 250 ml",
+      "name" : "RUBINO ZONIN, BIANCO ZONIN",
+      "price" : 16,
+      "rank" : 16
+    },
+    "-KcIBClx2Mu1L79vbvnZ" : {
+      "desc" : "Karafka 500 ml",
+      "name" : "RUBINO ZONIN, BIANCO ZONIN",
+      "price" : 26,
+      "rank" : 17
+    },
+    "-Kjb1F9w4FpqQAS2StBt" : {
+      "desc" : "0,33 l (but.)",
+      "name" : "Piwo",
+      "price" : 6,
+      "rank" : 13
+    },
+    "-Kjb1TQYEmFyQQcGzhHj" : {
+      "desc" : "0,33 l (but.)",
+      "name" : "Piwo bezalkoholowe",
+      "price" : 6,
+      "rank" : 14
+    }
+  },
+  "insalates" : {
+    "-KansjG2hQ3h9y-SWXj3" : {
+      "desc" : "sałata lodowa, feta, pomidor, ogórek, czerwona cebula, czarne oliwki",
+      "name" : "INSALATA GRECA ",
+      "price" : 24,
+      "rank" : 2
+    },
+    "-Kbnn1wn0Pq5mJ7ZKq3g" : {
+      "desc" : "sałata lodowa, pomidor, ogórek, papryka, czerwona cebula, tarty parmezan, grzanki czosnkowe",
+      "name" : "INSALATA MISTA",
+      "price" : 22,
+      "rank" : 1
+    },
+    "-KbnnFH--nplr3K2nnAw" : {
+      "desc" : "sałata lodowa, chrupiący boczek, pomidor, ogórek, czerwona cebula, jajko, grzanki czosnkowe",
+      "name" : "INSALATA CAMPAGNOLA",
+      "price" : 27,
+      "rank" : 3
+    },
+    "-KbnnRCDuTZDUH9JlF45" : {
+      "desc" : "sałata lodowa, grillowany kurczak, pomidor, czerwona cebula, papryka, zielone oliwki, pestki słonecznika",
+      "name" : "INSALATA DI POLLO",
+      "price" : 27,
+      "rank" : 4
+    },
+    "-KbnncS3CVf8XlqogVn1" : {
+      "desc" : "sałata lodowa, szynka parmeńska, biała mozzarella, suszone pomidory, czerwona cebula, pomidor, grzanki czosnkowe",
+      "name" : "INSALATA DI STRADA",
+      "price" : 27,
+      "rank" : 5
+    },
+    "-Kbnnm8DbDOdy0Mt_qbT" : {
+      "desc" : "sałata lodowa, pomidor ser gorgonzola, orzechy włoskie, żurawina, czerwona cebula, sos musztardowo-miodowy",
+      "name" : "INSALATA GORGONZOLA",
+      "price" : 27,
+      "rank" : 6
+    }
+  },
+  "news" : {
+    "626675895" : {
+      "date" : "21.02.2017",
+      "news" : "Gruszka orzechy i inne słodkości. Byłoby miło gdybyście chcieli ją wciągnąć. ",
+      "title" : "NOWA PIZZA",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/distrada-7d516.appspot.com/o/news_images%2F2017-02-21%2018:21:42%20%2B0000?alt=media&token=05c13367-7efa-4653-90f5-7ab726787e4e"
+    },
+    "627041415" : {
+      "date" : "17.02.2017",
+      "news" : "Gdzieś daleko stąd. ",
+      "title" : "WODOSPAD",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/distrada-7d516.appspot.com/o/news_images%2F2017-02-17%2012:49:41%20%2B0000?alt=media&token=e748c206-379f-4472-903c-336a1f3a0cdb"
+    },
+    "627044824" : {
+      "date" : "17.02.2017",
+      "news" : "Wiadomość dotarła niezwłocznie do wszystkich gdynian.",
+      "title" : "GGG",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/distrada-7d516.appspot.com/o/news_images%2F2017-02-17%2011:52:54%20%2B0000?alt=media&token=b155e21d-8923-4d63-a38e-2bc7349b621f"
+    },
+    "627044858" : {
+      "date" : "17.02.2017",
+      "news" : "Fgh",
+      "title" : "TG",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/distrada-7d516.appspot.com/o/news_images%2F2017-02-17%2011:52:19%20%2B0000?alt=media&token=c58ac520-b88d-4717-aa5a-0a4d4e53dc4a"
+    },
+    "2017-02-17 11:11:26 +0000" : {
+      "date" : "17.02.2017",
+      "news" : "Fhjj",
+      "title" : "SLO",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/distrada-7d516.appspot.com/o/news_images%2F2017-02-17%2011:11:24%20%2B0000?alt=media&token=6ab63b02-39a8-4774-92e4-ae2f4402158c"
+    },
+    "2017-02-17 11:11:55 +0000" : {
+      "date" : "17.02.2017",
+      "news" : "Taki",
+      "title" : "MAK",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/distrada-7d516.appspot.com/o/news_images%2F2017-02-17%2011:11:53%20%2B0000?alt=media&token=94a71ab3-7028-41d3-b67d-d4c98849c874"
+    }
+  },
+  "news&not" : {
+    "bot" : "pielgrzym",
+    "top" : "piotr64K"
+  },
+  "pasta" : {
+    "-Kc8Vqek6MP-Sfl6-vZb" : {
+      "desc" : "makaron penne z tradycyjnym włoskim sosem pomidorowym i świeżą bazylią",
+      "name" : "PENNE AL POMODORO",
+      "price" : 18,
+      "rank" : " 1"
+    },
+    "-KcI1tfYMDIPzwHs4Tqv" : {
+      "desc" : "makaron spaghetti z tradycyjnym sosem bolońskim z pomidorów, mięsa wołowego i warzyw",
+      "name" : "SPAGHETTI BOLOGNESE",
+      "price" : 24,
+      "rank" : " 2"
+    },
+    "-KcI2-pa1R_PLy-eJK3f" : {
+      "desc" : "makaron penne z bekonem, cebulą, ostrą papryczką piri piri i czosnkiem w sosie pomidorowym",
+      "name" : "SPAGHETTI CARBONARA",
+      "price" : 24,
+      "rank" : " 3"
+    },
+    "-KcI26sWZwWABWH-khot" : {
+      "desc" : "makaron penne z bekonem, cebulą, ostrą papryczką piri piri i czosnkiem w sosie pomidorowym",
+      "name" : "PENNE ALL'AMATRICIANA",
+      "price" : 24,
+      "rank" : " 4"
+    },
+    "-KcI2IMah05s6PXczfcm" : {
+      "desc" : "makaron farfalle z cukinią, pieczarkami, zielonym groszkiem i brokułami w sosie śmietanowym",
+      "name" : "FARFALLE PRIMAVERA",
+      "price" : 25,
+      "rank" : " 5"
+    },
+    "-KcI2V5X_IoM2AMA1eEb" : {
+      "desc" : "makaron tagliatelle z pietruszką, parmezanem i masłem czosnkowym w sosie śmietanowym",
+      "name" : "TAGLIATELLE ALFREDO",
+      "price" : 21,
+      "rank" : " 6a"
+    },
+    "-KcI2kzFVYIJHj2Ta4qF" : {
+      "desc" : "makaron tagliatelle z pietruszką, parmezanem i masłem czosnkowym w sosie śmietanowym",
+      "name" : "TAGLIATELLE ALFREDO z kurczakiem",
+      "price" : 28,
+      "rank" : " 6b"
+    },
+    "-KcI38QMfDbkOQi02WxM" : {
+      "desc" : "makaron tagliatelle z pietruszką, parmezanem i masłem czosnkowym w sosie śmietanowym",
+      "name" : "TAGLIATELLE ALFREDO z krewetkami (Królewskimi-10 szt.)",
+      "price" : 32,
+      "rank" : " 6c"
+    },
+    "-KcI3fxepzWaK8jAaSgW" : {
+      "desc" : "makaron penne z kurczakiem i pieczarkami w sosie śmietanowym",
+      "name" : "PENNE DA VINCI",
+      "price" : 28,
+      "rank" : " 7"
+    },
+    "-KcI3tB_v2v7M0NZeTbi" : {
+      "desc" : "makaron farfalle ze szpinakiem i serem pleśniowym w sosie śmietanowym",
+      "name" : "FARFALLE CON SPINACI",
+      "price" : 26,
+      "rank" : " 8"
+    },
+    "-KcI4BYpC67kJ700dEvh" : {
+      "desc" : "makaron tagliatelle z łososiem, selerem naciowym i papryką w sosie śmietanowym",
+      "name" : "TAGLIATELLE AL SALMONE",
+      "price" : 28,
+      "rank" : " 9"
+    },
+    "-KcI4IbG-9bnHEuciO6k" : {
+      "desc" : "makaron tagliatelle z borowikami i rozmarynem w sosie śmietanowym",
+      "name" : "TAGLIATELLE AL PORCINI",
+      "price" : 28,
+      "rank" : "10"
+    },
+    "-KcI4PUaYArgYnBslI0C" : {
+      "desc" : "makaron tagliatelle z polędwiczką wieprzową, pieczarkami, papryką i cebulą w sosie śmietanowym curry",
+      "name" : "TAGLIATELLE AL CURRY",
+      "price" : 29,
+      "rank" : "11"
+    },
+    "-KcI4aRx8QGKzhsS13r1" : {
+      "desc" : "makaron tagliatelle z cielęciną, pieczarkami i cebulą w sosie śmietanowo-grzybowym",
+      "name" : "TAGLIATELLE DI STRADA",
+      "price" : 29,
+      "rank" : "12"
+    },
+    "-KcI4k1G0-xgRzON73A5" : {
+      "desc" : "makaron farfalle ze szpinakiem i suszonymi pomidorami w sosie śmietanowym",
+      "name" : "FARFALLE CON SPINACI E POMODORI SECCHI",
+      "price" : 23,
+      "rank" : "13a"
+    },
+    "-KcI4syFIc15sm_xjcoy" : {
+      "desc" : "makaron farfalle ze szpinakiem i suszonymi pomidorami w sosie śmietanowym",
+      "name" : "FARFALLE CON SPINACI E POMODORI SECCHI z kurczakiem",
+      "price" : 29,
+      "rank" : "13b"
+    },
+    "-KcI5BryDtaAWDX2ELya" : {
+      "desc" : "makaron farfalle ze szpinakiem i suszonymi pomidorami w sosie śmietanowym",
+      "name" : "FARFALLE CON SPINACI E POMODORI SECCHI z polędwiczką wieprzową",
+      "price" : 32,
+      "rank" : "13c"
+    },
+    "-KcI5Pwf8sCxAamNxeEf" : {
+      "desc" : "tradycyjne włoskie pierożki z serem w czerwonym sosie pesto z suszonymi pomidorami",
+      "name" : "TORTELLINI AL FORMAGGIO",
+      "price" : 28,
+      "rank" : "14"
+    },
+    "-KcI5YnDc-DmJkiLbtj-" : {
+      "desc" : "tradycyjne włoskie pierożki z mięsem w sosie truflowym z pieczarkami",
+      "name" : "TORTELLINI AL TARTUFFO",
+      "price" : 28,
+      "rank" : "15"
+    },
+    "-KcI5jDdHOP5YRB2ikJW" : {
+      "desc" : "makaron tagliatelle z krewetkami królewskimi (6 szt.), kurczakiem, boczkiem, papryką i cebulą w ostrym sosie pomidorowym",
+      "name" : "TAGLIATELLE JAMBALAYA",
+      "price" : 32,
+      "rank" : "16"
+    }
+  },
+  "pizzas" : {
+    "-KartMLWAT8nMkUeGrTY" : {
+      "desc" : "oregano",
+      "name" : "MARGHERITA",
+      "price" : 17,
+      "rank" : 1
+    },
+    "-Kbk0wRTLjOhpyg-djns" : {
+      "desc" : "pieczarki",
+      "name" : "FUNGHI",
+      "price" : 20,
+      "rank" : 2
+    },
+    "-Kbk12m5bFc_88PAFUzI" : {
+      "desc" : "szpinak, czosnek",
+      "name" : "SPINACI",
+      "price" : 20,
+      "rank" : 3
+    },
+    "-Kbk1AYityUs68vS4uJ_" : {
+      "desc" : "salami",
+      "name" : "PEPPERONI",
+      "price" : 21,
+      "rank" : 4
+    },
+    "-Kbk1IN-JYmD1Rm3gci8" : {
+      "desc" : "szynka",
+      "name" : "PROSCIUTTO",
+      "price" : 21,
+      "rank" : 5
+    },
+    "-Kbk1RXvcwsDtcBhE6S-" : {
+      "desc" : "szynka, jajko, cebula",
+      "name" : "VESUVIO",
+      "price" : 22,
+      "rank" : 6
+    },
+    "-Kbk1aKlMG3vOBkW-4Sk" : {
+      "desc" : "szynka, pieczarki",
+      "name" : "CAPRICCIOSA",
+      "price" : 22,
+      "rank" : 7
+    },
+    "-Kbk1ju0RsvdSnAJHsSn" : {
+      "desc" : "szynka, ananas",
+      "name" : "HAWAI",
+      "price" : 22,
+      "rank" : 8
+    },
+    "-Kbk1q2aqkNZVZZQaUWz" : {
+      "desc" : "salami, pomidor, cebula",
+      "name" : "ROMANA",
+      "price" : 22,
+      "rank" : 9
+    },
+    "-Kbk1x1bgRSrF2_U2OTF" : {
+      "desc" : "salami, ostra papryka pepperoni, cebula",
+      "name" : "PICCANTE ",
+      "price" : 23,
+      "rank" : 10
+    },
+    "-Kbk24Ys8lF3jmhe7hTO" : {
+      "desc" : "pieczarki, papryka, cebula, brokuły",
+      "name" : "VEGETALE",
+      "price" : 23,
+      "rank" : 11
+    },
+    "-Kbk2D0TsmEEstCrTw6z" : {
+      "desc" : "salami, szynka, pieczarki",
+      "name" : "MISTA",
+      "price" : 24,
+      "rank" : 12
+    },
+    "-Kbk2LfVlg6lSH6SXETn" : {
+      "desc" : "pieczarki, cebula, boczek",
+      "name" : "FIORENTINA",
+      "price" : 24,
+      "rank" : 13
+    },
+    "-Kbk2YDernuZDFUsksQj" : {
+      "desc" : "salami, papryka, pieczarki",
+      "name" : "SICILIANA",
+      "price" : 24,
+      "rank" : 14
+    },
+    "-Kbk2ekUfUsxWFaTfOKm" : {
+      "desc" : "boczek, pomidor, jajko, cebula",
+      "name" : "SAPORITA",
+      "price" : 24,
+      "rank" : 15
+    },
+    "-Kbk2wbmi62p5hXdReIK" : {
+      "desc" : "ser camembert, pieczarki, cebula, rukola",
+      "name" : "BIANCA",
+      "price" : 25,
+      "rank" : 16
+    },
+    "-Kbk340VVaVpBn-b0XYZ" : {
+      "desc" : "szpinak, jajko, ser pleśniowy",
+      "name" : "GIUSEPPE",
+      "price" : 25,
+      "rank" : 17
+    },
+    "-Kbk3Bq5r_5zjd8VBcem" : {
+      "desc" : "pomidor, czarne oliwki, czerwona cebula, feta",
+      "name" : "GRECA",
+      "price" : 25,
+      "rank" : 18
+    },
+    "-Kbk3LShXS4fJwZKEoji" : {
+      "desc" : "mozzarella, plastry białej mozzarelli, ser pleśniowy, ser wędzony",
+      "name" : "QUATTRO FORMAGGI",
+      "price" : 27,
+      "rank" : 19
+    },
+    "-Kbk3TeaI8_ANCUKyQGM" : {
+      "desc" : "grillowany kurczak, kukurydza, ananas",
+      "name" : "POLLO",
+      "price" : 27,
+      "rank" : 20
+    },
+    "-Kbk3ZrVOPYGka113XrD" : {
+      "desc" : "szynka parmeńska, plastry białej mozzarelli, rukola",
+      "name" : "PARMA",
+      "price" : 27,
+      "rank" : 21
+    },
+    "-Kbk46-zShqW0oH-wRhf" : {
+      "desc" : "anchois, karczochy, czarne oliwki, ostra papryka pepperoni",
+      "name" : "PUTTANESCA",
+      "price" : 27,
+      "rank" : 22
+    },
+    "-Kbk4HAOYSVrRwNYPg7w" : {
+      "desc" : "grillowany kurczak, papryka, czerwona cebula, kukurydza",
+      "name" : "RUSTICA",
+      "price" : 27,
+      "rank" : 23
+    },
+    "-Kbk4RkJ6Xytln5LbA1F" : {
+      "desc" : "krewetki, szynka, czosnek",
+      "name" : "LA BUSSOLA",
+      "price" : 27,
+      "rank" : 24
+    },
+    "-Kbk4atUG4uoXHu-U4Om" : {
+      "desc" : "kiełbasa krakowska, ser camembert, pieczarki, cebula",
+      "name" : "DI STRADA",
+      "price" : 27,
+      "rank" : 25
+    },
+    "-Kbk4vuOzD7ULDn20_4D" : {
+      "desc" : "salami, szynka, pieczarki, karczochy",
+      "name" : "QUATTRO STAGIONI",
+      "price" : 27,
+      "rank" : 26
+    },
+    "-Kbk531stdJ256YZIgb8" : {
+      "desc" : "szpinak, boczek, czosnek, biała mozzarella",
+      "name" : "TOSCANA",
+      "price" : 28,
+      "rank" : 27
+    },
+    "-Kbk5B25tOHafjR-u76o" : {
+      "desc" : "szynka parmeńska, kapary, czarna oliwka, czosnek, rukola",
+      "name" : "SOPRANO",
+      "price" : 28,
+      "rank" : 28
+    },
+    "-Kbk5RJFAClNYvZyWoeD" : {
+      "desc" : "grillowany kurczak, szpinak, czosnek, ser pleśniowy",
+      "name" : "TORINO",
+      "price" : 28,
+      "rank" : 29
+    },
+    "-Kbk5Y09N7mSDLJsYDA7" : {
+      "desc" : "szynka, salami, boczek, kiełbasa krakowska",
+      "name" : "MOLTA CARNE",
+      "price" : 28,
+      "rank" : 30
+    },
+    "-Kbk5gcaDyVJaH78QSJo" : {
+      "desc" : "kurczak grillowany, pieczarki, pomidor, cebula",
+      "name" : "MILANO",
+      "price" : 28,
+      "rank" : 31
+    },
+    "-Kbk5tNinc6VpaA5Yhuk" : {
+      "desc" : "kurczak grillowany, pieczarki, brokuły, ser camembert",
+      "name" : "PEPPE",
+      "price" : 28,
+      "rank" : 32
+    },
+    "-Kbk68NUHMeBxWyHt5nh" : {
+      "desc" : "tuńczyk, suszone pomidory, kapary, czerwona cebula",
+      "name" : "TONNO E CAPPERI",
+      "price" : 28,
+      "rank" : 33
+    },
+    "-Kbk6KuENXACpgBYboLl" : {
+      "desc" : "łosoś wędzony, anchois, tuńczyk, czosnek, kapary",
+      "name" : "PESCE",
+      "price" : 29,
+      "rank" : 34
+    },
+    "-Kbk6SkmCTuNu3qDqDJS" : {
+      "desc" : "łosoś wędzony, szpinak, czosnek ser pleśniowy",
+      "name" : "PESCE SPINACI",
+      "price" : 29,
+      "rank" : 35
+    },
+    "-Kbk6_sFkLuikLyiT0U2" : {
+      "desc" : "owoce morza, czosnek, pietruszka",
+      "name" : "FRUTTI DI MARE",
+      "price" : 29,
+      "rank" : 36
+    },
+    "-Kbk6fvpxrwSMOxxOFaI" : {
+      "desc" : "margherita + własna kompozycja",
+      "name" : "FAVORITA",
+      "price" : 32,
+      "rank" : 37
+    }
+  },
+  "secondis" : {
+    "-Kc8V_6exPLceOZlSD0w" : {
+      "desc" : "grillowana pierś z kurczaka podawana z masłem czosnkowym",
+      "name" : "FILETTO DI POLLO ALLA GRIGLIA (190g)",
+      "price" : 26,
+      "rank" : 1
+    },
+    "-KcI6j3izEJVaHK8_jNI" : {
+      "desc" : "sznycle  z  piersi  kurczaka  z  migdałami  i pieczarkami w sosie na winie Marsala",
+      "name" : "SCALLOPINE MARSALA (190g)",
+      "price" : 29,
+      "rank" : 2
+    },
+    "-KcI6ursBckhKZMSEioF" : {
+      "desc" : "polędwiczki wieprzowe w sosie gorgonzola z dodatkiem orzechów włoskich",
+      "name" : "SCALLOPINE IN SALSA DI GORGONZOLA (160g)",
+      "price" : 33,
+      "rank" : 3
+    },
+    "-KcI74cl9qGn2x2JLacR" : {
+      "desc" : "grillowany filet z łososia w sosie śmietanowym z kaparami",
+      "name" : "SALMONE IN SALSA DI CAPPERI (200g)",
+      "price" : 37,
+      "rank" : 4
+    },
+    "-KcI7FkVA2LOkA7wLV_p" : {
+      "desc" : "sola  atlantycka zapiekana  w  piecu  ze  szpinakiem i czosnkiem z dodatkiem białego wina",
+      "name" : "SOGLIOLA FIORENTINA (250g)",
+      "price" : 37,
+      "rank" : 5
+    },
+    "-KcI7QUooYK4CYpcj24d" : {
+      "desc" : "polędwica z dorsza atlantyckiego w sosie do wyboru",
+      "name" : "PESCE IN SALSA (200g)",
+      "price" : 37,
+      "rank" : 6
+    },
+    "-KcI7tklovuI7vkWFOo1" : {
+      "desc" : "sznycle cielęce z szynką parmeńską w sosie camembert",
+      "name" : "SCALLOPINE DI STRADA (160g)",
+      "price" : 38,
+      "rank" : 7
+    },
+    "-KcI83X0ZSiSCF2-75ge" : {
+      "desc" : "polędwiczki wieprzowe w sosie kurkowym",
+      "name" : "SCALLOPINE IN SALSA DI FUNGHI (160g)",
+      "price" : 36,
+      "rank" : 8
+    },
+    "-KcI8BIo8K5WYcFIQqhJ" : {
+      "desc" : "grillowana  polędwica  wołowa w  sosie  śmietanowym  z  zielonym  pieprzem",
+      "name" : "FILETTO AL PEPE VERDE (200g)",
+      "price" : 67,
+      "rank" : 9
+    }
+  },
+  "starters" : {
+    "-Kc8NdBjFkFNPODTJIVM" : {
+      "desc" : "4 gorące bułeczki pieczone w piecu podawane z masłem czosnkowym",
+      "name" : "PANINI \"DI STRADA\"",
+      "price" : 8,
+      "rank" : 1
+    },
+    "-Kcr_dqjFn6iXd827yym" : {
+      "desc" : "plastry białej mozzarelli, pomidor, oliwa z oliwek i świeża bazylia podawane z 2 gorącymi bułeczkami",
+      "name" : "CAPRESE",
+      "price" : 16,
+      "rank" : 2
+    },
+    "-Kcra-ZNf8KC7KAihq9o" : {
+      "desc" : "liście szpinaku duszone na maśle czosnkowym podawane ze świeżym pomidorem, jajkiem, parmezanem i 2 gorącymi bułeczkami",
+      "name" : "SPINACI CON AGLIO E POMODORI",
+      "price" : 19,
+      "rank" : 3
+    },
+    "-KcrdIZILqP5Cb0Xx0Th" : {
+      "desc" : "plastry marynowanej polędwicy wołowej skropione oliwą z oliwek podawane z rukolą, płatkami tartego parmezanu i 2 gorącymi bułeczkami",
+      "name" : "CARPACIO DI FILETO",
+      "price" : 26,
+      "rank" : 4
+    },
+    "-Kcrdmqoff2g3rFibyAN" : {
+      "desc" : "kalmary panierowane w cieście podawane z sosem czosnkowym i 2 gorącymi bułeczkami",
+      "name" : "CALMARI FRITTI",
+      "price" : 26,
+      "rank" : 5
+    },
+    "-Kcre7aTlY7LeyG5ng-M" : {
+      "desc" : "kalmary zapiekane w sosie pomidorowym z dodatkiem czosnku, czarnych oliwek i białego wina podawane z 2 gorącymi bułeczkami",
+      "name" : "CALMARI ALLA LIVORNESE",
+      "price" : 26,
+      "rank" : 6
+    }
+  },
+  "zuppas" : {
+    "01" : {
+      "desc" : "toskańska zupa ziemniaczana z dodatkiem boczku, kiełbasy i kapusty włoskiej",
+      "name" : "ZUPPA TOSCANA",
+      "price" : 13,
+      "rank" : 1
+    },
+    "02" : {
+      "desc" : "tradycyjna włoska zupa jarzynowa",
+      "name" : "MINESTRONE",
+      "price" : 11,
+      "rank" : 2
+    },
+    "-KbnmqcYpevCabaDdqYz" : {
+      "desc" : "zupa  pomidorowa  z  południowych  Włoch z dodatkiem ostrej papryki",
+      "name" : "ZUPPA DI POMODORO",
+      "price" : 13,
+      "rank" : 3
+    }
+  }
+}
