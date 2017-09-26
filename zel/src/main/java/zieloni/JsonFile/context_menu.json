@@ -1,33 +1,29 @@
 {
-  "Planer": {
-    "pokaż wydarzenia": {
+  "planer": {
+    "wydarzenia": {
       "metoda": "showEvents"
     },
-    "pokaż rozkład jazdy": {
+    "rozkład jazdy": {
       "metoda": "busSchedule"
     }
   },
-  "Zespoł Zielonych": {
-    "Sklad": {
-      "kursant 1": {
-        "opis": "",
-        "hobby": ""
+  "autorzy": {
+    "skład": {
+      "Adam": {
+        "metoda": "showStudent1"
       },
-      "kursant 2": {
-        "opis": "",
-        "hobby": ""
+      "Adam1": {
+        "metoda": "showStudent2"
       },
-      "kursant 3": {
-        "opis": "",
-        "hobby": ""
+      "Marcin": {
+        "metoda": "showStudent3"
       },
-      "kursant 4": {
-        "opis": "",
-        "hobby": ""
+      "Michał": {
+        "metoda": "showStudent4"
       }
     },
-    "Motto": {
-      "tresc": "Nie mamy zielonego pojecia."
+    "motto": {
+      "metoda": "showMotto"
     }
   }
 }
