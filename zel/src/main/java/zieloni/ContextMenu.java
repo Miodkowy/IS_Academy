@@ -2,6 +2,7 @@ package zieloni;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+
 import java.util.Scanner;
 /*
  Klasa pobiera JSON ze strukturą menu  i wyświetla go na Ekranie
@@ -10,17 +11,20 @@ import java.util.Scanner;
 
 public class ContextMenu {
 
-    private static void getAnswer(StringBuilder question, JSONArray array, JSONObject parentJson) {
-        System.out.println(question);
-        Scanner inScanner = new Scanner(System.in);
 
+    private static Scanner inScanner = new Scanner(System.in);
+    private static void getAnswer(StringBuilder question, JSONArray array, JSONObject parentJson) {
+
+        System.out.println(question);
         Integer selectedOption = null;
+        Boolean isRunning = true;
         while (inScanner.hasNextLine()) {
             String text = inScanner.nextLine();
 
             if (text.equals("exit") || text.equals(String.valueOf(array.size()))) {
                 System.out.println("Do zobaczenia! Program zakończony!");
-                break;
+                isRunning = false;
+               return;
             }
             for (int i = 0; i < array.size(); i++) {
 
@@ -28,9 +32,13 @@ public class ContextMenu {
                     System.out.println("Przechodzimy do sekcji: " + parentJson.keySet().toArray()[i].toString().toUpperCase());
                     selectedOption = i;
                     showMenu((JSONObject) array.get(selectedOption));
-                    break;
+                    isRunning = false;
+                   return;
                 }
             }
+            if (isRunning)
+                System.out.println("Nie masz takiej opcji do wyboru");
+
         }
     }
 
@@ -50,6 +58,7 @@ public class ContextMenu {
             if (jsonObject.get(jsonObject.keySet().toArray()[i]).getClass().getSimpleName().toString().equals("String")) {
                 String op = (String) jsonObject.get(jsonObject.keySet().toArray()[i]);
                 System.out.println("Wywołaj metodę " + op);
+                taskDistriburor(op);
                 isMethod = true;
 
             } else {
@@ -65,6 +74,36 @@ public class ContextMenu {
         }
 
         getAnswer(sb, jsonArray, jsonObject);
+    }
+
+    private static void taskDistriburor(String task) {
+
+        if (task.equals("showEvents")) {
+            showEvents();
+        }
+
+        if (task.equals("busSchedule")) {
+            busSchedule();
+        }
+
+        if (task.equals("showMotto")) {
+            showMotto();
+        }
+    }
+
+    private static void showMotto() {
+        System.out.println("NIE MAM ZIELONEGO POJĘCIA");
+    }
+
+    private static void busSchedule() {
+        //TODO wyświetl rozkład jazdy np klasa BusSchedule
+        System.out.println("Wczytywanie rozkładów jazdy z plików");
+    }
+
+    private static void showEvents() {
+
+        //TODO wyświetl wydarzenia
+        System.out.println("Wczytywanie kalendarza wydarzeń z plików");
     }
 
 }

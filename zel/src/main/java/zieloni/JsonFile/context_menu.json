@@ -1,24 +1,24 @@
 {
   "planer": {
-    "wydarzenia": {
+    "Wczytywanie kalendarza wydarzeń": {
       "metoda": "showEvents"
     },
-    "rozkład jazdy": {
+    "Wczytywanie rozkładów jazdy z plików": {
       "metoda": "busSchedule"
     }
   },
   "autorzy": {
     "skład": {
-      "Adam": {
+      "kursant a": {
         "metoda": "showStudent1"
       },
-      "Adam1": {
+      "kursant b": {
         "metoda": "showStudent2"
       },
-      "Marcin": {
+      "kursant c": {
         "metoda": "showStudent3"
       },
-      "Michał": {
+      "kursant d": {
         "metoda": "showStudent4"
       }
     },
